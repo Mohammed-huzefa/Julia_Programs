@@ -6,3 +6,5 @@ cost=parse(Int,readline())
 tot=max(100*hours+cost,150)
 print(tot)
 end
+
+makepay()

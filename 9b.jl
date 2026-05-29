@@ -1,3 +1,4 @@
+begin
 using LinearAlgebra
 
 A = [1 2; 3 4]
@@ -33,3 +34,4 @@ println(dot(v1, v2))
 
 println("\nCross Product (v1 × v2):")
 println(cross(v1, v2))
+end

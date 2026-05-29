@@ -1,3 +1,4 @@
+begin
 file_path = "D:/filename.txt"
 
 file_contents = read(file_path, String)
@@ -18,4 +19,5 @@ println("Unique words found in the file:")
 
 for word in sorted_words
 println(word)
+end
 end

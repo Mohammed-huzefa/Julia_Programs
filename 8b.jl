@@ -1,3 +1,4 @@
+begin
 using LinearAlgebra
 
 A = [4.0 2.0; 3.0 1.0]
@@ -24,3 +25,4 @@ println("\nEuclidean Norm=", norm(A))
 
 println("\nSquare Root=")
 println(sqrtm(A))
+end

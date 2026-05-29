@@ -1,3 +1,4 @@
+begin
 println("Enter a line of text:")
 text = readline()
 
@@ -11,4 +12,5 @@ end
 
 for (letter, frequency) in sort(collect(letter_frequency))
 println("$letter occurs $frequency times")
+end
 end

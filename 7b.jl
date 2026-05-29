@@ -1,4 +1,4 @@
-file_path = "C:/Users/ushah/OneDrive/Desktop/aiml.txt"
+file_path = "D:/filename.txt"
 
 file_contents = read(file_path, String)
 

@@ -24,5 +24,5 @@ println("\nDiagonal Elements=", diag(A))
 println("\nEuclidean Norm=", norm(A))
 
 println("\nSquare Root=")
-println(sqrtm(A))
+println(sqrt(complex.(A)))
 end

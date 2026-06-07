@@ -1,3 +1,4 @@
+begin
 function freq_letter(text::String)
 freq=Dict{Char,Int}()
 text=lowercase(text)
@@ -17,3 +18,4 @@ end
 println("Enter a text:")
 text=readline()
 freq_letter(text)
+end

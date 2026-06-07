@@ -1,3 +1,4 @@
+begin
 function evaluate_expression(expression::String)
 try
 result = eval(Meta.parse(expression))
@@ -11,3 +12,4 @@ println("Enter a expression to evaluate (use pi and sqrt wherever needed):")
 expression = readline()
 
 evaluate_expression(expression)
+end
